@@ -1,0 +1,30 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Quick Converters: Calculator.net</title>
+<meta name="description" content="Quick converters of calculator.net" />
+	<link rel="stylesheet" href="style.css" />
+	<script src="common.js"></script>
+	<script src="conversion.js"></script>
+</head>
+<body>
+<div>Use this converter to convert to the unit accepted by the calculator.</div>
+<div id="topmenu">conversion calculator</div>
+<script>
+popMenu("Length");
+currentAName = lA;
+</script>
+<br>
+<table width="500" border="0" cellspacing="0" cellpadding="0">
+<form name="calForm">
+	<tr><td width="200"><b>From:</b></td><td width="300"><b>To:</b></td></tr>
+	<tr><td><input type="text" name="fromVal" onKeyUp="calcul();" style="width:175px;"></td><td><input type="text" name="toVal" style="width:275px; background-color: #ddd;" readonly></td></tr>
+	<tr><td><select name="calFrom" id="calFrom" onChange="calcul();" size="5" style="width:180px;"></select></td><td><select name="calTo" id="calTo" size="5" onChange="calcul();" style="width:280px;"></select></td></tr>
+</form>
+</table>
+<div id="fcresult" style="display:none;"></div>
+<script>
+showSel(lA);
+</script>
+</body>
+</html>
