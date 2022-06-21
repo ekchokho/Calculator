@@ -1,0 +1,41 @@
+body,p,td,div,span,input,select,option{font-family:arial,helvetica,sans-serif;font-size: 16px;}
+body{background-color:#cde6ff;}
+#topmenu ul {
+	color: #000;
+	border-bottom: 1px solid #000;
+	margin: 12px 0px 0px 0px;
+	padding: 0 0 2 0;
+	padding-left: 5px;
+	font-size: 16px;
+}
+#topmenu ul li {
+	display: inline;
+	overflow: hidden;
+	list-style-type: none;
+	margin-left: 1px;
+}
+#topmenu ul li a, #topmenu ul li a:visited {
+	color: #fff;
+	background: #000;
+	border: 1px solid #000;
+	padding: 2px 3px 2px 3px;
+	margin: 0;
+	text-decoration: none;
+}
+#topmenu ul li a:hover {
+	background: #ddd;
+	color: #000;
+	
+}
+#topmenu ul #menuon a {
+	color: #000;
+	background: #ddd;
+	border: 1px solid #000;
+	padding: 2px 5px 2px 5px;
+	margin: 0;
+	text-decoration: none;
+	border-bottom: 2px solid #ddd;
+}
+#topmenu ul #menuon a:hover {
+	background: #ddd;
+}
